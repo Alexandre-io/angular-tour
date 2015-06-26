@@ -1,6 +1,6 @@
 {
-  "name": "angular-tour",
-  "version": "0.1.1",
+  "name": "angular-tour-new",
+  "version": "0.2.0",
   "description": "An AngularJS directive for showcasing features of your website",
   "keywords": [
     "angularjs",
@@ -8,8 +8,8 @@
     "angular",
     "module"
   ],
-  "homepage": "https://github.com/DaftMonk/angular-tour",
-  "bugs": "https://github.com/DaftMonk/angular-tour/issues",
+  "homepage": "https://github.com/Alexandre-io/angular-tour",
+  "bugs": "https://github.com/Alexandre-io/angular-tour/issues",
   "author": {
     "name": "Tyler Henkel",
     "email": "",
@@ -17,36 +17,39 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/DaftMonk/angular-tour.git"
+    "url": "git://github.com/Alexandre-io/angular-tour.git"
   },
   "dependencies": {},
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-concurrent": "~0.4.1",
-    "grunt-contrib-clean": "~0.5.0",
-    "grunt-contrib-concat": "~0.3.0",
-    "grunt-contrib-connect": "~0.5.0",
-    "grunt-contrib-compass": "~0.6.0",
-    "grunt-contrib-cssmin": "~0.7.0",
-    "grunt-contrib-jshint": "~0.6.3",
-    "grunt-contrib-uglify": "~0.2.2",
-    "grunt-contrib-watch": "~0.5.2",
+    "grunt": "~0.4.5",
+    "grunt-autoprefixer": "~3.0.3",
+    "grunt-bump": "~0.3.1",
+    "grunt-concurrent": "~2.0.0",
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-compass": "~1.0.3",
+    "grunt-contrib-concat": "~0.5.1",
+    "grunt-contrib-connect": "~0.10.1",
+    "grunt-contrib-copy": "~0.8.0",
+    "grunt-contrib-cssmin": "~0.12.3",
+    "grunt-contrib-jshint": "~0.11.2",
+    "grunt-contrib-uglify": "~0.9.1",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-html2js": "~0.3.2",
+    "grunt-karma": "~0.11.1",
     "grunt-ngmin-concat": "~0.1.0",
-    "grunt-karma": "~0.7.1",
-    "grunt-html2js": "~0.1.3",
-    "karma": "~0.10.4",
-    "jshint-stylish": "~0.1.3",
-    "load-grunt-tasks": "~0.2.0",
-    "matchdep": "~0.1.1",
-    "grunt-autoprefixer": "~0.4.1",
-    "grunt-contrib-copy": "~0.4.1",
-    "karma-ng-html2js-preprocessor": "~0.1.0",
-    "grunt-bump": "~0.0.11",
-    "grunt-processhtml": "~0.2.6",
-    "karma-ie-launcher": "~0.1.1"
+    "grunt-processhtml": "~0.3.8",
+    "jasmine-core": "^2.3.4",
+    "jshint-stylish": "~2.0.1",
+    "karma": "~0.12.37",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-ie-launcher": "~0.2.0",
+    "karma-jasmine": "^0.3.5",
+    "karma-ng-html2js-preprocessor": "~0.1.2",
+    "load-grunt-tasks": "~3.2.0",
+    "matchdep": "~0.3.0"
   },
   "engines": {
-    "node": ">=0.8.0"
+    "node": ">=0.12.0"
   },
   "scripts": {
     "test": "grunt test"

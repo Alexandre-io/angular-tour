@@ -1,6 +1,6 @@
 {
-  "name": "angular-tour",
-  "version": "0.1.1",
+  "name": "angular-tour-new",
+  "version": "0.2.0",
   "description": "An AngularJS directive for showcasing features of your website",
   "keywords": [
     "angularjs",
@@ -8,8 +8,8 @@
     "angular",
     "module"
   ],
-  "homepage": "https://github.com/DaftMonk/angular-tour",
-  "bugs": "https://github.com/DaftMonk/angular-tour/issues",
+  "homepage": "https://github.com/Alexandre-io/angular-tour",
+  "bugs": "https://github.com/Alexandre-io/angular-tour/issues",
   "author": {
     "name": "Tyler Henkel",
     "email": "",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/DaftMonk/angular-tour.git"
+    "url": "git://github.com/Alexandre-io/angular-tour.git"
   },
   "main": "./dist/angular-tour-tpls.min.js",
   "ignore": [
@@ -31,12 +31,12 @@
     "package.json"
   ],
   "dependencies": {
-    "angular": "~1.2.x",
-    "jquery": "~2.0.3"
+    "angular": "~1.4.x",
+    "jquery": "~2.1.4"
   },
   "devDependencies": {
     "angular-mocks": "~1.x",
-    "angular-cookie": "~4.0.1"
+    "angular-cookie": "~4.0.8"
   },
   "license": "MIT"
 }
