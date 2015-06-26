@@ -1,9 +1,5 @@
 # Angular Tour - [AngularJS](http://angularjs.org/) directive for giving a tour of your website.
 
-## Demo
-
-Want to see it in action? Visit <http://daftmonk.github.io/angular-tour/>
-
 ## Showcase features of your website
 
 Give an interactive tour to showcase the features of your website. 
@@ -26,7 +22,7 @@ Has been tested in
 
 To install run
 
-    bower install angular-tour
+    bower install angular-tour-new
 
 Angular Tour has a dependency on jQuery.
 
@@ -36,15 +32,15 @@ Once bower has downloaded the dependencies for you, you'll need to make sure you
 
     <script src="bower_components/jquery/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
-    <script src="bower_components/angular-tour/dist/angular-tour-tpls.min.js"></script>
+    <script src="bower_components/angular-tour-new/dist/angular-tour-new-tpls.min.js"></script>
 
 You'll also probably want to include the default stylesheet for angular tour. (You can replace this with your own stylesheet.)
 
-    <link href="bower_components/angular-tour/dist/angular-tour.css" rel="stylesheet" type="text/css"/>
+    <link href="bower_components/angular-tour-new/dist/angular-tour-new.css" rel="stylesheet" type="text/css"/>
 
 Lastly, you'll need to include the module in your angular app
 
-    angular.module('myApp', ['angular-tour'])
+    angular.module('myApp', ['angular-tour-new'])
 
 ## How to use
 
@@ -108,7 +104,7 @@ If you'd like to edit the defaults for all your tour, you can inject tourConfig 
 
 As was already mentioned, you can use your own CSS for styling the tour tips. You can also use your own markup.
 
-If you would like to replace the html template, instead of using the `angular-tour-tpls.min.js` script, use `angular-tour.min.js` which doesn't include a template.
+If you would like to replace the html template, instead of using the `angular-tour-new-tpls.min.js` script, use `angular-tour-new.min.js` which doesn't include a template.
 
 The easiest way to add your own template is to use the script directive:
 

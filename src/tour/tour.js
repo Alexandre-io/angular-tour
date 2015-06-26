@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('angular-tour.tour', [])
+angular.module('angular-tour-new.tour', [])
 
   /**
    * tourConfig
