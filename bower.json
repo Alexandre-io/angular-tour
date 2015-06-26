@@ -19,7 +19,7 @@
     "type": "git",
     "url": "git://github.com/Alexandre-io/angular-tour.git"
   },
-  "main": "./dist/angular-tour-tpls.min.js",
+  "main": "dist/angular-tour-new-tpls.min.js",
   "ignore": [
     ".*",
     "node_modules",
